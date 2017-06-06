@@ -1,0 +1,11 @@
+{% extends "shop/base.html" %}
+
+{% block title %}
+  Спасибо за заказ
+{% endblock %}
+
+{% block content %}
+  <h1>Спасибо за заказ</h1>
+  <p>Идентификатор вашего заказа: {{ order.id }}</p>
+  <meta http-equiv="refresh" content="5; URL='http://127.0.0.1:8000/'" />
+{% endblock %}

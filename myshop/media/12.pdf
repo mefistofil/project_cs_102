@@ -1,0 +1,53 @@
+<html>
+  <body>
+    <h1>Онлайн-магазин</h1>
+    <p>
+      Номер заказа: <b>12</b> <br>
+      <span class="secondary">
+        June 4, 2017, 6:11 p.m.
+      </span>
+    </p>
+    <h3>Покупатель</h3>
+    <p>
+      Андрей Левин<br>
+      w84man-buyer@yandex.ru <br>
+      Ул. тестовая, дом Тест, квартира тест <br>
+      123311, Санкт-Петербург
+    </p>
+    <h3>Купленные товары</h3>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Товар</th>
+          <th>Стоймость</th>
+          <th>Количество</th>
+          <th>Всего</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+          <tr class="row1">
+            <td>Кожаная крутка</td>
+            <td>10000.00</td>
+            <td>1</td>
+            <td>10000.00</td>
+          </tr>
+        
+          <tr class="row2">
+            <td>Часы наручные CARRERA</td>
+            <td>25000.00</td>
+            <td>1</td>
+            <td>25000.00</td>
+          </tr>
+        
+        <tr class="total">
+          <td colspan="3">Всего:</td>
+          <td class="num">35000.00</td>
+        </tr>
+      </tbody>
+    </table>
+    <span class="pending">
+      Ожидает оплаты
+    </span>
+  </body>
+</html>
